@@ -1,3 +1,9 @@
+## For judges
+
+1. I have not implemented the `GET /api/profit?from{{from}}&to={{to}}`
+2. I have not implemented the `GET /api/top?from{{from}}&to={{to}}&top=100&by=profit`
+3. All other endpoints are implemented and tested.
+
 ### Installation
 
 **Build and Start the Services**
@@ -14,7 +20,3 @@ This command will build the Docker images and start all services defined in the 
 ```bash
 docker-compose run --rm project pytest
 ```
-
-### Corner cases covered
-1. Set limits for sku length (max: 128)
-2. 
